@@ -1,0 +1,14 @@
+{
+  "name": "acme",
+  "version": "0.1.0",
+  "description": "The next billion dollar startup",
+  "author": "Acme",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.1.1"
+  },
+  "engineStrict": true,
+  "packageManager": "pnpm@8.1.1"
+}
