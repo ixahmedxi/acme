@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "Prisma.prisma",
+    "nrwl.angular-console"
+  ]
+}
