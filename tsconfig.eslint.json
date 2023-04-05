@@ -1,0 +1,17 @@
+{
+  "extends": "@acme/tsconfig/base",
+  "compilerOptions": {
+    "noEmit": true
+  },
+  "include": [
+    ".eslintrc.cjs",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.cjs",
+    "**/*.mjs",
+    "**/*.cts",
+    "**/*.mts"
+  ]
+}

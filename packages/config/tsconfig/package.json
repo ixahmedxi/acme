@@ -1,0 +1,19 @@
+{
+  "name": "@acme/tsconfig",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Presets for common tsconfig.json configurations",
+  "license": "MIT",
+  "author": "Acme",
+  "files": [
+    "./base.json",
+    "./nextjs.json",
+    "./react.json"
+  ],
+  "devDependencies": {
+    "@tsconfig/next": "^1.0.5",
+    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/strictest": "^2.0.0",
+    "@tsconfig/vite-react": "^1.0.1"
+  }
+}

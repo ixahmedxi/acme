@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Nextjs",
+  "extends": ["./base.json", "@tsconfig/next/tsconfig"],
+  "compilerOptions": {
+    "moduleResolution": "nodenext"
+  }
+}

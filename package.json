@@ -23,5 +23,8 @@
     "node": ">=18.0.0",
     "pnpm": ">=8.1.1"
   },
-  "engineStrict": true
+  "engineStrict": true,
+  "dependencies": {
+    "@acme/tsconfig": "^0.1.0"
+  }
 }
