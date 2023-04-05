@@ -14,11 +14,14 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
+    "@nrwl/nx-cloud": "latest",
     "@types/node": "^18.15.11",
+    "nx": "15.9.2",
     "prettier": "^2.8.7",
     "prettier-plugin-jsdoc": "^0.4.2",
     "prettier-plugin-packagejson": "^2.4.3",
     "prettier-plugin-tailwindcss": "^0.2.6",
+    "turbo": "^1.8.8",
     "typescript": "^5.0.3"
   },
   "packageManager": "pnpm@8.1.1",
