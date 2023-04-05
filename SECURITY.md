@@ -1,3 +1,7 @@
-# Security
+# Security Policy
 
-This is where you will put how people can contact or approach you in the cases of finding security vulnerabilities in your code.
+## Reporting a Vulnerability
+
+In case you find any security vulnerability then do not raise an issue. Kindly report it on admin emails below
+
+- [Ahmed Elsakaan](mailto:ahmedtarek3214@gmail.com)
