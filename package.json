@@ -9,6 +9,9 @@
     "format:check": "prettier --check .",
     "format:write": "prettier --write ."
   },
+  "dependencies": {
+    "@acme/tsconfig": "^0.1.0"
+  },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
     "@types/node": "^18.15.11",
@@ -22,9 +25,5 @@
   "engines": {
     "node": ">=18.0.0",
     "pnpm": ">=8.1.1"
-  },
-  "engineStrict": true,
-  "dependencies": {
-    "@acme/tsconfig": "^0.1.0"
   }
 }
