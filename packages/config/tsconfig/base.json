@@ -4,6 +4,7 @@
   "extends": ["@tsconfig/strictest/tsconfig", "@tsconfig/node18/tsconfig"],
   "compilerOptions": {
     "moduleResolution": "bundler",
+    "module": "esnext",
     "resolvePackageJsonExports": true,
     "verbatimModuleSyntax": false
   }
