@@ -1,5 +1,9 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Base",
-  "extends": ["./base.json", "@tsconfig/vite-react/tsconfig"]
+  "extends": ["./base.json", "@tsconfig/vite-react/tsconfig"],
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowJs": true
+  }
 }

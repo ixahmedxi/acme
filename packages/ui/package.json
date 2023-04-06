@@ -1,0 +1,49 @@
+{
+  "name": "@acme/ui",
+  "version": "0.1.0",
+  "description": "Acme UI components library package",
+  "license": "MIT",
+  "author": "Acme",
+  "exports": {
+    "./atoms": {
+      "import": "./dist/atoms/index.mjs",
+      "require": "./dist/atoms/index.js",
+      "types": "./dist/atoms/index.d.ts"
+    },
+    "./molecules": {
+      "import": "./dist/molecules/index.mjs",
+      "require": "./dist/molecules/index.js",
+      "types": "./dist/molecules/index.d.ts"
+    },
+    "./organisms": {
+      "import": "./dist/organisms/index.mjs",
+      "require": "./dist/organisms/index.js",
+      "types": "./dist/organisms/index.d.ts"
+    },
+    "./templates": {
+      "import": "./dist/templates/index.mjs",
+      "require": "./dist/templates/index.js",
+      "types": "./dist/templates/index.d.ts"
+    },
+    "./pages": {
+      "import": "./dist/pages/index.mjs",
+      "require": "./dist/pages/index.js",
+      "types": "./dist/pages/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "^0.1.0",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.3"
+  }
+}

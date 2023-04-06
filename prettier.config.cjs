@@ -11,6 +11,7 @@ const config = {
     require.resolve('prettier-plugin-jsdoc'),
     require.resolve('prettier-plugin-tailwindcss'),
   ],
+  // @ts-expect-error - plugin options
   importOrder: [
     '^react',
     '<TYPES>',
