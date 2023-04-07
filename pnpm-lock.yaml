@@ -81,6 +81,9 @@ importers:
 
   packages/config/tailwind:
     dependencies:
+      '@radix-ui/colors':
+        specifier: ^0.1.8
+        version: 0.1.8
       autoprefixer:
         specifier: ^10.4.14
         version: 10.4.14(postcss@8.4.21)
@@ -90,6 +93,9 @@ importers:
       tailwindcss:
         specifier: ^3.3.1
         version: 3.3.1(postcss@8.4.21)
+      windy-radix-palette:
+        specifier: ^0.5.0
+        version: 0.5.0(@radix-ui/colors@0.1.8)(tailwindcss@3.3.1)
     devDependencies:
       '@acme/tsconfig':
         specifier: ^0.1.0
@@ -859,6 +865,10 @@ packages:
       tiny-glob: 0.2.9
       tslib: 2.5.0
     dev: true
+
+  /@radix-ui/colors@0.1.8:
+    resolution: {integrity: sha512-jwRMXYwC0hUo0mv6wGpuw254Pd9p/R6Td5xsRpOmaWkUHlooNWqVcadgyzlRumMq3xfOTXwJReU0Jv+EIy4Jbw==}
+    dev: false
 
   /@swc/helpers@0.4.14:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
@@ -2986,6 +2996,16 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
+
+  /windy-radix-palette@0.5.0(@radix-ui/colors@0.1.8)(tailwindcss@3.3.1):
+    resolution: {integrity: sha512-rySAAUChIR3qpgJ73HwqpZ5s6ijhfX1mzJpcIn2KRotZv03fj4ppv5GlgQgC1WxijeYtSMsCcaAL0Kr+Bz55zA==}
+    peerDependencies:
+      '@radix-ui/colors': '>=0.1.0'
+      tailwindcss: '>=3.0.0'
+    dependencies:
+      '@radix-ui/colors': 0.1.8
+      tailwindcss: 3.3.1(postcss@8.4.21)
+    dev: false
 
   /wrap-ansi@7.0.0:
     resolution: {integrity: sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==}
