@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "@acme/tsconfig": "^0.1.0",
+    "@acme/tsup": "^0.1.0",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
     "tsup": "^6.7.0",

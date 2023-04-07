@@ -1,0 +1,20 @@
+{
+  "name": "@acme/tsup",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Acme's tsup presets",
+  "license": "MIT",
+  "author": "Acme",
+  "main": "./dist/base.js",
+  "types": "./dist/base.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "ts-deepmerge": "^6.0.3",
+    "tsup": "^6.7.0"
+  },
+  "devDependencies": {
+    "@acme/tsconfig": "^0.1.0"
+  }
+}

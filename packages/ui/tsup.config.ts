@@ -1,5 +1,7 @@
 import { defineConfig } from 'tsup';
 
+import { baseConfig } from '@acme/tsup';
+
 const entries = [
   'src/atoms/index.ts',
   'src/molecules/index.ts',
@@ -9,13 +11,7 @@ const entries = [
 ];
 
 export default defineConfig((opts) => ({
+  ...baseConfig(opts),
   entry: entries,
-  format: ['esm', 'cjs'],
-  dts: true,
-  splitting: true,
-  sourcemap: true,
-  clean: !opts.watch,
-  minify: true,
-  treeshake: true,
   platform: 'browser',
 }));
